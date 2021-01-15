@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCF</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../src/css/main.css">
+    <link rel="stylesheet" href="../../src/css/style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="title">
+                <h1>Избранное</h1>
+            </div>
+
+            <div class="top-block">
+                <div class="title-price-button">
+                    <div class="title-list">
+                        <p>Список товаров (20.02.2020)</p>
+                        <span>3 товара (20.02.2020)</span>
+                    </div>
+                    <div class="top-block-right">
+                        <span class="price">30000 р.</span>
+                        <button class="right-button" id="top-block-button">Купить все</button>
+                    </div>
+
+                </div>
+                <div class="add_goods-link">
+                    <button class="add_goods-first-button">Добавить все товары в мой список</button>
+                    <button class="add_goods-second-button"><img src="../../src/img/favorites/link.png" alt=""> Ссылка</button>
+                </div>
+            </div>
+
+            <div class="cabinet-block" id="favorites-cabinet-block">
+                <div class="cabinet-block_tabs-content" id="favorites-cabinet-content">
+                    <div class="tabs-block" id="tab_1">
+                        <div class="tab">
+                            <div class="tab-img"><img src="../../src/img/cabinet/гитара1.png" alt="товар"></div>
+                            <div class="tab-description favorite-tab-description">
+                                <div class="left">
+                                    <div class="left-title">
+                                        <h6>Название товара</h6>
+                                        <p>Подробное описание товара
+                                            и технические характеристики</p>
+                                    </div>
+                                    <div class="stars">
+                                        <div class="rating-area">
+                                            <input type="radio" id="star-5" name="rating" value="5">
+                                            <label for="star-5" title="Оценка «5»"></label>
+                                            <input type="radio" id="star-4" name="rating" value="4">
+                                            <label for="star-4" title="Оценка «4»"></label>
+                                            <input type="radio" id="star-3" name="rating" value="3">
+                                            <label for="star-3" title="Оценка «3»"></label>
+                                            <input type="radio" id="star-2" name="rating" value="2">
+                                            <label for="star-2" title="Оценка «2»"></label>
+                                            <input type="radio" id="star-1" name="rating" value="1">
+                                            <label for="star-1" title="Оценка «1»"></label>
+                                        </div>
+                                        <span>83</span>
+                                        <img src="../../src/img/cabinet/speech-bubble.png" alt="">
+                                        <span>112</span>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <a href="#">Удалить</a>
+                                    <span class="price">10000 р.</span>
+                                    <div class="right-bottom-wrapper">
+
+                                        <img class="right-bottom-columns" src="../../src/img/cabinet/columns.png" alt="">
+                                        <img class="right-bottom-star" src="../../src/img/cabinet/star.png" alt="">
+                                        <button class="right-button">Купить</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab">
+                            <div class="tab-img"><img src="../../src/img/cabinet/гитара2.png" alt="товар"></div>
+                            <div class="tab-description favorite-tab-description">
+                                <div class="left">
+                                    <div class="left-title">
+                                        <h6>Название товара</h6>
+                                        <p>Подробное описание товара
+                                            и технические характеристики</p>
+                                    </div>
+                                    <div class="stars">
+
+                                        <div class="rating-area">
+                                            <input type="radio" id="star-10" name="rating" value="5">
+                                            <label for="star-10" title="Оценка «5»"></label>
+                                            <input type="radio" id="star-9" name="rating" value="4">
+                                            <label for="star-9" title="Оценка «4»"></label>
+                                            <input type="radio" id="star-8" name="rating" value="3">
+                                            <label for="star-8" title="Оценка «3»"></label>
+                                            <input type="radio" id="star-7" name="rating" value="2">
+                                            <label for="star-7" title="Оценка «2»"></label>
+                                            <input type="radio" id="star-6" name="rating" value="1">
+                                            <label for="star-6" title="Оценка «1»"></label>
+                                        </div>
+                                        <span>83</span>
+                                        <img src="../../src/img/cabinet/speech-bubble.png" alt="">
+                                        <span>112</span>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <a href="#">Удалить</a>
+                                    <span class="price">10000 р.</span>
+                                    <div class="right-bottom-wrapper">
+
+                                        <img class="right-bottom-columns" src="../../src/img/cabinet/columns.png" alt="">
+                                        <img class="right-bottom-star" src="../../src/img/cabinet/star.png" alt="">
+                                        <button class="right-button">Купить</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab">
+                            <div class="tab-img"><img src="../../src/img/cabinet/гитара3.png" alt="товар"></div>
+                            <div class="tab-description favorite-tab-description">
+                                <div class="left">
+                                    <div class="left-title">
+                                        <h6>Название товара</h6>
+                                        <p>Подробное описание товара
+                                            и технические характеристики</p>
+                                    </div>
+                                    <div class="stars">
+                                        <div class="rating-area">
+                                            <input type="radio" id="star-15" name="rating" value="5">
+                                            <label for="star-15" title="Оценка «5»"></label>
+                                            <input type="radio" id="star-14" name="rating" value="4">
+                                            <label for="star-14" title="Оценка «4»"></label>
+                                            <input type="radio" id="star-13" name="rating" value="3">
+                                            <label for="star-13" title="Оценка «3»"></label>
+                                            <input type="radio" id="star-12" name="rating" value="2">
+                                            <label for="star-12" title="Оценка «2»"></label>
+                                            <input type="radio" id="star-11" name="rating" value="1">
+                                            <label for="star-11" title="Оценка «1»"></label>
+                                        </div>
+                                        <span>83</span>
+                                        <img src="../../src/img/cabinet/speech-bubble.png" alt="">
+                                        <span>112</span>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <a href="#">Удалить</a>
+                                    <span class="price">10000 р.</span>
+                                    <div class="right-bottom-wrapper">
+
+                                        <img class="right-bottom-columns" src="../../src/img/cabinet/columns.png" alt="">
+                                        <img class="right-bottom-star" src="../../src/img/cabinet/star.png" alt="">
+                                        <button class="right-button">Купить</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+           
+                <div class="scrollup">
+                    <!-- Иконка (Font Awesome) -->
+                   <i class="fas fa-caret-up"></i>
+                  </div>
+                <div class="back-arrow">
+                    <!-- Стрелка назад -->
+                    <a onclick="javascript:history.back(-1); return false;"><img src="../../src/img/cabinet/back.png" alt="" class="back-arrow-img"></a>
+                </div>  
+            
+
+
+            <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+                integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+                integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                crossorigin="anonymous">
+            </script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+                integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                crossorigin="anonymous">
+            </script>
+
+            <script src="../../src/js/script.js"></script>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

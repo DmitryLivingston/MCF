@@ -1,0 +1,223 @@
+
+.bread-crumbs a
+    text-decoration: none
+    font-family: TT Norms
+    font-style: normal
+    font-weight: 500
+    font-size: 23px
+    line-height: 27px
+    text-align: center
+    &:hover
+        color: inherit
+.bread-crumbs
+    margin-bottom: 78px
+    &_prime
+        color: #949393
+
+    &_cabinet
+        color: #393838
+
+.name-photo
+    display: flex
+    justify-content:
+    align-items: center
+    margin-bottom: 120px
+
+.photo
+    height: 342px
+    width: 342px
+    border-radius: 50%
+    background: #C4C4C4
+    margin-right: 50px
+
+.name
+    h3
+        font-family: TT Norms
+        font-style: normal
+        font-weight: 700
+        font-size: 90px
+        line-height: 106px
+    p
+        font-family: TT Norms
+        font-style: normal
+        font-weight: 500
+        font-size: 23px
+        line-height: 27px
+        text-align: center
+        color: #949393
+
+.cabinet-block
+    box-shadow: 0px 4px 45px rgba(0, 0, 0, 0.25)
+    margin-bottom: 322px
+
+    &_tabs
+        display: flex
+        box-shadow: 0px 4px 21px 0px rgba(0, 0, 0, 0.1)
+        background: linear-gradient(270.87deg, #FFFFFF 3.32%, #F5F5F5 99.23%)
+        a
+            text-decoration: none
+            &:hover
+                color: inherit
+a.active
+    &:hover
+        color: #fff
+.tabs-item
+    flex: 0 1 25%
+    height: 75px
+    display: flex
+    align-items: center
+    justify-content: center
+    text-decoration: none
+    color: #000
+    padding: 26px 100px
+    border-left: 1px solid grey
+    border-right: 1px solid grey
+    &:first-child
+        border-left: none
+    &:last-child
+        border-right: none
+.cabinet-block_tabs-content
+    display: flex
+    flex-direction: column
+    padding: 40px
+    background-color: #fff
+.tabs-block
+    display: none
+.tabs-block:target
+    display: block
+.tab
+    display: flex
+    height: 189px
+    margin-top: 50px
+    margin-bottom: 50px
+    &:first-child
+        margin-top: 0
+    &:last-child
+        margin-bottom: 0
+
+.tab-img
+    height: 189px
+    margin-right: 60px
+
+.tab-description
+    background: #fff
+    display: flex
+    justify-content: space-between
+    width: 940px
+.left
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+
+    &-title
+        width: 270px
+        height: 130px
+        p
+            font-family: TT Norms
+            font-style: normal
+            font-weight: normal
+            font-size: 18px
+            line-height: 21px
+            color: #969696
+        h6
+            font-family: TT Norms
+            font-style: normal
+            font-weight: normal
+            font-size: 26px
+            line-height: 31px
+
+.stars
+    display: flex
+    align-items: center
+    span
+        margin-left: 5px
+    img
+        margin-left: 13px
+
+.right
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: flex-end
+    a
+        margin-bottom: 65px
+        font-family: TT Norms
+        font-style: normal
+        font-weight: normal
+        font-size: 24px
+        line-height: 28px
+        text-decoration-line: underline
+        color: #A9A8A8
+        text-align: right
+    &-button
+        font-family: TT Norms
+        font-style: normal
+        font-weight: bold
+        font-size: 18px
+        line-height: 21px
+        background-color: #000000
+        color: #fff
+        height: 36px
+        width: 99px
+        cursor: pointer
+.right-bottom-wrapper
+    display: flex
+    align-items: center
+.right-bottom-columns
+    margin-right: 25px
+
+.right-bottom-star
+    margin-right: 11px
+.active
+    background: #A4242A
+    color: #fff
+.rating-area
+    overflow: hidden
+    width: 100px
+    margin: 0 auto
+    display: flex
+    justify-content: flex-end
+    flex-direction: row-reverse
+    margin: 0
+    padding: 0
+
+    &:not(:checked) > input
+        display: none
+
+    &:not(:checked) > label
+        float: right
+        width: 24px
+        padding: 0
+        cursor: pointer
+        font-size: 24px
+        line-height: 32px
+        color: lightgrey
+        text-shadow: 1px 1px #bbb
+
+    &:not(:checked) > label:before
+        content: '★'
+
+    & > input:checked ~ label
+        color: #FFA800
+        text-shadow: 1px 1px #FFA800
+
+    &:not(:checked) > label:hover,
+
+    &:not(:checked) > label:hover ~ label
+        color: #FFA800
+
+    & > input:checked + label:hover,
+
+    & > input:checked + label:hover ~ label,
+
+    & > input:checked ~ label:hover,
+
+    & > input:checked ~ label:hover ~ label,
+
+    & > label:hover ~ input:checked ~ label
+        color: #FFA800
+        text-shadow: 1px 1px #FFA800
+
+.rate-area > label:active
+    position: relative
+

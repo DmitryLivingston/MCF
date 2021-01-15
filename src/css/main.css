@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'TT Norms';
+    src: url('../fonts/TTNorms-regular/TTNorms-Regular.eot');
+    src: url('../fonts/TTNorms-regular/TTNorms-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TTNorms-regular/TTNorms-Regular.woff') format('woff'),
+    url('../fonts/TTNorms-regular/TTNorms-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+@font-face {
+    font-family: 'TT Norms';
+    src: url('../fonts/TTNorms-bold/TTNorms-Bold.eot');
+    src: url('../fonts/TTNorms-bold/TTNorms-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TTNorms-bold/TTNorms-Bold.woff') format('woff'),
+    url('../fonts/TTNorms-bold/TTNorms-Bold.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}    
+@font-face {
+    font-family: 'TT Norms';
+    src: url('../fonts/TTNorms-bold/TTNorms-ExtraBold.eot');
+    src: url('../fonts/TTNorms-bold/TTNorms-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TTNorms-bold/TTNorms-ExtraBold.woff') format('woff'),
+    url('../fonts/TTNorms-bold/TTNorms-ExtraBold.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    }
