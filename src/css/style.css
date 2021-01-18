@@ -561,3 +561,116 @@ a.active:hover {
 .add_goods-second-button img {
   margin-right: 3px;
 }
+
+.overall-rating {
+  margin-bottom: 87px;
+  width: 800px;
+}
+
+.overall-rating p {
+  font-family: TT Norms;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.rating-by-options {
+  width: 800px;
+  margin-bottom: 87px;
+}
+
+.rating-by-options p {
+  font-family: TT Norms;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.rating-by-options span {
+  font-family: TT Norms;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.options-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 32px;
+}
+
+.review-form {
+  margin-bottom: 58px;
+}
+
+.review-form .form-group .form-control {
+  width: 800px;
+  height: 87px;
+  border: none;
+}
+
+.overall-rating .rating-area:not(:checked) > label {
+  font-size: 35px;
+  width: 40px;
+}
+
+.rating-by-options .options-wrapper .rating-area:not(:checked) > label {
+  font-size: 35px;
+  width: 40px;
+}
+
+.rating-by-options .options-wrapper .rating-area {
+  width: auto;
+}
+
+.overall-rating .rating-area {
+  width: auto;
+}
+
+.review-buttons {
+  width: 385px;
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 132px;
+}
+
+.review-buttons .review-button {
+  font-family: TT Norms;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  height: 41px;
+  width: 170px;
+  cursor: pointer;
+  border: 1px solid #C4C4C4;
+  color: #767575;
+}
+
+.review-buttons .review-button:active {
+  background-color: #911A1F;
+  color: #fff;
+  font-weight: bold;
+}
+
+.review-buttons .review-button:focus {
+  outline: none;
+}
